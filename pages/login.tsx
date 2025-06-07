@@ -89,7 +89,7 @@ const LoginPage = () => {
         </button>
       </form>
       <p style={{ marginTop: '20px' }}>
-        Don't have an account? <Link href="/register">Register here</Link>
+        Don&apos;t have an account? <Link href="/register">Register here</Link>
       </p>
     </div>
   );
