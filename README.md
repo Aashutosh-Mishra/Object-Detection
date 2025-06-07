@@ -2,13 +2,6 @@ c# Real-time Object Detection Web App
 
 This project is a web-based application that utilizes real-time object detection to identify and label objects within an image or video stream. It is built using Next.js, ONNXRuntime, YOLOv7, and YOLOv10 model.
 
-## Demo at [RTOD.vercel.app](https://rtod.vercel.app)
-
-<div align="center" >
-  <video autoplay loop muted
-  src="https://user-images.githubusercontent.com/44163987/211734752-e354b590-0f55-465a-b783-504ed55d3ed3.mp4" alt="demo.mp4" >
-  </video>
-</div>
 
 ## Getting Started
 
@@ -26,13 +19,13 @@ In order to run this project, you will need to have the following software insta
 1. Clone the repository to your local machine:
 
 ```
-https://github.com/juanjaho/real-time-object-detection-web-app.git
+https://github.com/Aashutosh-Mishra/Object-Detection.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd real-time-object-detection-web-app
+cd Object-Detection
 ```
 
 3. Install the necessary dependencies by running:
@@ -85,10 +78,6 @@ This project can be deployed to a web server for public access. For more informa
 
 If you want to contribute to this project, please feel free to submit a pull request. Any contributions, big or small, are greatly appreciated!
 
-## Authors
-
-Juan Sebastian - Initial work - [@juanjaho](https://github.com/juanjaho)
-
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE.md) file for details.
@@ -109,30 +98,3 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 - Inspiration for this project was taken from my previous project [AnimeArcaneGAN_Mobile](https://github.com/juanjaho/AnimeArcaneGAN_Mobile)
 
-## Citation for YOLOv10
-
-```
-
-@article{THU-MIGyolov10,
-title={YOLOv10: Real-Time End-to-End Object Detection},
-author={Ao Wang, Hui Chen, Lihao Liu, et al.},
-journal={arXiv preprint arXiv:2405.14458},
-year={2024},
-institution={Tsinghua University},
-license = {AGPL-3.0}
-}
-
-```
-
-## Citation for YOLOv7
-
-```
-
-@article{wang2022yolov7,
-title={{YOLOv7}: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors},
-author={Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},
-journal={arXiv preprint arXiv:2207.02696},
-year={2022}
-}
-
-```
